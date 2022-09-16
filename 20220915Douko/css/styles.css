@@ -151,6 +151,9 @@ a:hover {
   padding:10px 10% 64px 10%;
 }
 
+*{
+}
+
 .service h2{
   margin-top:64px;
   text-align: center;
@@ -164,8 +167,9 @@ a:hover {
 
 .services__grid{
   display:grid;
-  grid-template-rows: 32vmax 32vmax;
+  grid-template-rows: 65vmin 65vmin;
   grid-template-columns: 1fr 1fr;
+  min-height: 720px;
 }
 
 .services__grid h3{
